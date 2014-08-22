@@ -1,0 +1,8 @@
+deb {localMirror} {lsb-codename} main universe multiverse
+deb-src {localMirror} {lsb-codename} main universe multiverse
+
+deb {localMirror} {lsb-codename}-updates main universe
+deb-src {localMirror} {lsb-codename}-updates main universe
+
+deb http://security.ubuntu.com/ubuntu {lsb-codename}-security main universe
+deb-src http://security.ubuntu.com/ubuntu {lsb-codename}-security main universe
